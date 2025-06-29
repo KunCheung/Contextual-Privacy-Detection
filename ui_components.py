@@ -36,8 +36,10 @@ def render_input_area():
             unsafe_allow_html=True
         )
         input_placeholder = st.empty()
-        if "input_value" not in st.session_state:
+        # 每次页面加载时自动清空输入框
+        if "input_value" not in st.session_state or st.session_state.get("reset_input", False):
             st.session_state["input_value"] = ""
+            st.session_state["reset_input"] = False
         user_input = input_placeholder.text_input(
             "Type your message...",
             value=st.session_state["input_value"],
@@ -84,6 +86,7 @@ def render_privacy_analysis(analysis_history):
             if st.button("✏️ Apply Reformulation", key="apply_reformulation"):
                 reformulated_query = last["safe_query"]
                 st.session_state["input_value"] = reformulated_query
+                st.session_state["reset_input"] = True
                 st.rerun()
         else:
             st.info("No analysis available yet. Enter a message in the chat and click Apply Privacy Detector.")
