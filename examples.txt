@@ -1,0 +1,21 @@
+# Contextual Privacy Chat Assistant - Example Inputs
+
+1. My name is John Doe, and my employee ID is 12345. What are the company’s holiday policies for 2024?
+
+2. I’m Jane. My home address is 456 Elm St, Springfield. Can you recommend a good Italian restaurant nearby?
+
+3. My friend Sarah, who works at WidgetCorp, asked me to find the Q3 sales numbers for Acme Inc.
+
+4. Here’s my phone number (555-987-6543) and my email (alice@example.com). Can you help me reset my WidgetCorp account password?
+
+5. I’m planning a trip to Paris in July. My passport number is X1234567. What are the COVID-19 travel restrictions?
+
+6. My manager, Bob Smith, needs the 2023 Q4 revenue projections for Zenith Inc. He’s based in New York.
+
+7. My credit card number is 4111 1111 1111 1111. Can you tell me if there are any suspicious transactions this month?
+
+8. I’m feeling unwell and my doctor, Dr. Jane Doe, prescribed me 20mg of Lipitor. What are the side effects?
+
+9. Please summarize the attached contract for my company, WidgetWorks, signed by John Doe on 2023-11-15.
+
+10. My social security number is 987-65-4321. Can you help me check my tax refund status?
