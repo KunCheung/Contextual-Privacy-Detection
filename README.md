@@ -14,7 +14,7 @@ A Streamlit-based demo that lets users chat with an LLM (Large Language Model) w
 ![Demo Screenshot](./screenshot.png)
 
 ---
-git remote add origin https://github.com/KunCheung/Contextual_Privacy_Detection.git
+
 ## Features
 
 - **Chat Interface:**  
