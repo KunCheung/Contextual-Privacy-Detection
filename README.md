@@ -34,7 +34,6 @@ A Streamlit-based demo that lets users chat with an LLM (Large Language Model) w
     ```bash
     export DEEPSEEK_API_KEY=your_deepseek_api_key
     ```
-    *(On Windows, use `set` instead of `export`.)*
 
 2. **Run the app:**
     ```bash
